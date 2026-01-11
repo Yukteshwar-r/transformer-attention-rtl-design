@@ -1,6 +1,6 @@
 # Transformer Attention RTL Design
 
-A high-performance SystemVerilog implementation of the Scaled Dot-Product Attention mechanism, a core component of Transformer models. This project realizes the complete hardware path from input embeddings and weight matrices to the final attention scores, optimized for ASIC synthesis.
+A SystemVerilog implementation of the Scaled Dot-Product Attention mechanism, a core component of Transformer models. This project realizes the complete hardware path from input and weight matrices to the final attention matrix, optimized for ASIC synthesis.
 
 ## 🛠 Features
 * Matrix Computation Engine: RTL for calculating Query (Q), Key (K), and Value (V) matrices.
