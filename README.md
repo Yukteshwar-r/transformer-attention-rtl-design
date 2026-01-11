@@ -19,17 +19,21 @@ Initialize the tool environment (Modelsim and Synopsys) using the provided scrip
 ### Simulation & Functional Verification
 To compile the RTL and run the evaluation suite:
 
-`cd run
+```
+cd run
 make build
-make eval`
+make eval
+```
 
 Simulation results are generated in run/logs/output.log, while final verification status is located in run/logs/RESULTS.log.
 
 ### Logic Synthesis
 To synthesize the design and generate timing/area reports:
 
-`cd ../synthesis
-make all CLOCK_PER=5`
+```
+cd ../synthesis
+make all CLOCK_PER=5
+```
 
 ## 📂 Repository Structure
 * inputs/ - Contains .dat files for SRAM initialization (Input, Weight, and Expected Results).
